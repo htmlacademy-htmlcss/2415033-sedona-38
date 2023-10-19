@@ -1,0 +1,518 @@
+@font-face{
+font-family:"PT Sans";
+font-style: normal;
+font-weight: 400;
+src: url("../fonts/ptsans-400.woff2") format("woff2");
+font-display:swap;
+}
+
+@font-face{
+    font-family:"PT Sans Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
+    font-display:swap;
+    }
+
+    .page-container {
+        width: 1200px;
+        margin:0 auto;
+    }
+
+    body{
+
+        font-family: "PT sans", sans-serif;
+        font-size: 18px;
+        line-height: 21px;
+        color:black;
+        background-color:#ffffff;
+    }
+
+    .navigation-list{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navigation-link{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        text-decoration: none;
+        text-transform:uppercase;
+        color:#000000;
+    }
+
+
+    .button{
+        font-size:20px;
+        font-weight: 700;
+        line-height: 36px;
+        text-transform: uppercase;
+        color:#ffffff;
+        background-color: #756157;
+        border-radius: 4px;
+        border:none;
+        padding: 8px 50px;
+        cursor: pointer;
+    }
+
+    .main-header-button{
+        font-size:16px;
+        line-height: 20px;
+        padding: 8px 34px;
+    }
+
+.welcome-container{
+    height: 485px;
+    background-image:
+    url("../images/background\ Vector.svg"),
+    url("../images/index-background.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-color: #d5e1ee;
+    text-align: center;
+}
+
+.info-discreption {
+  text-align: center;
+    font-family: PT Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 36px;
+}
+ .info-reasons{
+text-align: center;
+font-family: PT Sans;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+
+ }
+
+ .advantages-title{
+    width: 175px;
+   text-align: center;
+   font-family: PT Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+
+
+ }
+
+ .advantages-discreption{
+ align-self: stretch;
+text-align: center;
+ font-family: PT Sans;
+ font-size: 18px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 21px;
+}
+
+.invitation-title{
+    width: 505px;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+
+}
+
+.invitation-discreption{
+text-align: center;
+font-family: PT Sans;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+
+.search-item{
+
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+
+}
+
+.search-title{
+width: 592px;
+text-align: center;
+font-family: PT Sans;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+
+
+.subscription{
+    background-image:
+    url("../images/фон подписки.jpg");
+    display: flex;
+    padding: 96px 258px 104px 258px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-repeat: no-repeat;
+}
+
+    .subscription-title{
+    width: 404px;
+    height: 36.35px;
+    color:  #FFF;
+    font-family: PT Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.subscription-description{
+    width: 475px;
+    height: 52.506px;
+    color: #FFF;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+
+}
+
+.button-subscribe{
+
+    background:#82B3D3;
+    display: inline-flex;
+    padding: 8px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    text-align: center;
+
+
+    font-family: PT Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+    height:auto 52px;
+    width:auto 232px;
+}
+
+
+.field {
+    height:auto 52px;
+    width:auto 232px;
+    background: #F2F2F2;
+    display: flex;
+    padding: 12px 20px;
+    align-items: center;
+    gap: 260px;
+    flex: 1 0 0;
+    align-self: stretch;
+
+color: #000;
+font-family: PT Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+
+}
+
+.addres{
+display: flex;
+width: 331px;
+height: 40px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;}
+
+.main-filter {
+    background-image:
+    url("../images/Фильтр.jpg");
+
+}
+
+.main-filter h1{
+   color: #FFF;
+   font-family: PT Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 78px;
+}
+
+.catalog-filter-title{
+
+color: #FFF;
+font-family: PT Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+text-transform: capitalize;
+
+}
+
+.catalogfilter-item{
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+
+}
+
+.button-button-submit {
+    border-radius: 4px;
+    background:  #82B3D3;
+    display: flex;
+    padding: 8px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+
+color:#FFF;
+text-align: center;
+font-family: PT Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+text-transform: uppercase;
+}
+
+.button-button-reset{
+display: flex;
+padding: 8px 50px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+border-radius: 4px;
+
+color: #FFF;
+background-color: rgba(255, 255, 255, 0.0);
+text-align: center;
+font-family: PT Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+text-transform: uppercase;
+
+}
+
+.section-result{
+    color:texts-texts-basic, #000;
+    font-family: PT Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+
+}
+
+.product-card-title{
+color:#000;
+
+font-family: PT Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+}
+
+.class-type-of-leaving{
+    color:  #333;
+    font-family: PT Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.class-type-of-price{
+    color: #333;
+    text-align: right;
+
+    font-family: PT Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+
+}
+
+.product-card-button-detail{
+border-radius: 4px;
+background: #756157;
+display: flex;
+padding: 8px 50px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex: 1 0 0;
+
+color:#FFF;
+text-align: center;
+font-family: PT Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+text-transform: uppercase;
+}
+
+.product-card-botton-like {
+    border-radius: 4px;
+    background: var(--buttons-second, #82B3D3);
+    display: flex;
+    padding: 8px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+
+    color:#FFF;
+text-align: center;
+font-family: PT Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+text-transform: uppercase;
+
+}
+
+.cart-rate{
+    border-radius: 4px;
+    background:  #F2F2F2;
+    width: 140px;
+    height: 37px;
+    flex-shrink: 0;
+
+color: #333;
+text-align: center;
+
+
+font-family: PT Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+text-transform: uppercase;
+}
+
+.pagination-link-pagination-current{
+border-radius: 4px;
+background: #F2F2F2;
+display: flex;
+width: 60px;
+height: 60px;
+
+justify-content: center;
+align-items: center;
+
+color: var(--texts-texts-basic, #000);
+text-align: center;
+font-family: PT Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+text-transform: uppercase;
+}
+
+.pagination-link-number{
+    border-radius: 4px;
+    background: #82B3D3;
+    display: flex;
+    width: 60px;
+    height: 60px;
+
+    justify-content: center;
+    align-items: center;
+
+    color: #000;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.pagination-link-number-hidden{
+    border-radius: 4px;
+    background: #ffffff00;
+    display: flex;
+    width: 60px;
+    height: 60px;
+
+    justify-content: center;
+    align-items: center;
+
+    color:#000;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.subscription-catalog-title{
+    color:  #000;
+    font-family: PT Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+    width: 604px;
+    height: 36.35px;
+}
+
+
+.subscription-catalog-description{
+    color: #333;
+    text-align: center;
+    width: 475px;
+    height: 52.506px;
+
+    font-family: PT Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+
+}
