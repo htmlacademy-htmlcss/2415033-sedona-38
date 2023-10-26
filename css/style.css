@@ -18,6 +18,27 @@ font-display:swap;
     height: 100%;
   }
 
+
+
+
+
+
+  .page-header{
+background-color: rgba(255, 255, 255, 1);
+Width:1200px;
+Height:64px;
+margin: 0 auto;
+}
+
+
+
+.main-container{
+    background-color: rgba(255, 255, 255, 1);
+Width:1200px;
+
+
+}
+
   .navigation-logo{
     display: block;
     margin: 0 auto;
@@ -53,8 +74,8 @@ font-display:swap;
       }
 
       .navigation-list-user{
-        max-width: 268px;
-        margin-left: auto;
+      display: flex;
+      margin: 0 auto;
 
       }
 
@@ -66,7 +87,8 @@ font-display:swap;
         font-size: 18px;
         line-height: 21px;
         color:black;
-        background-color:#ffffff;
+        background-color: rgba(242, 242, 242, 1);
+
         margin: 0;
     }
 
@@ -74,15 +96,17 @@ font-display:swap;
         list-style-type: none;
         padding: 0;
         margin: 0;
+        display: flex;
     }
 
     .navigation-link{
-        font-size: 20px;
+
         font-weight: 700;
         line-height: 24px;
         text-decoration: none;
         text-transform:uppercase;
         color:#000000;
+        padding: 10px;
     }
 
 
@@ -132,7 +156,7 @@ font-display:swap;
     width: 1200px;
     height: 485px;
     background-image:
-    url("../images/background\ Vector.svg"),
+
     url("../images/index-background.jpg");
     background-repeat: no-repeat;
     background-position: 0 100%;
@@ -188,9 +212,9 @@ line-height: 26px;
 .advantages-item{
 
 display: flex;
-width: 400px;
-height: 385px;
-
+width: 230px;
+height: 181px;
+margin: 103px 85px;
 flex-direction: column;
 justify-content: center;
 align-items: center;
@@ -357,10 +381,10 @@ line-height: 24px;
 }
 
 
-.addres{
+.addres {
     color:#000;
     text-align: center;
-margin-left: 236.5px;
+    margin:0 auto;
 
     margin-top: 0;
     font-family: PT Sans;
@@ -672,10 +696,12 @@ text-transform: uppercase;
 .page-footer{
     width: 1200px;
     margin:0 auto;
-
-
+    height: 120px;
+    justify-content: center;
+    align-items: center;
     display: flex;
     margin-top: 0;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 
