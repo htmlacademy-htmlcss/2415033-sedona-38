@@ -69,20 +69,17 @@ Width:1200px;
 
       .navigation {
         display: flex;
-        width: 920px;
+       
         margin: 0 auto;
+        padding: 0 70px;
 
       }
 
-      .navigation-list {
-        width: 339px;
-        margin: 0;
-        padding: 0;
-      }
+
 
       .navigation-list-user{
       display: flex;
-      margin: 0 auto;
+      margin-left: auto;
 
       }
 
@@ -102,8 +99,9 @@ Width:1200px;
     .navigation-list{
         list-style-type: none;
         padding: 0;
-        margin: 0;
+        margin-right: auto;
         display: flex;
+
     }
 
     .navigation-link{
@@ -133,7 +131,8 @@ Width:1200px;
         border:none;
         padding: 8px 50px;
         cursor: pointer;
-        margin-left:412px;
+        margin: 0 auto;
+       display: block;
 
         justify-content: center;
         align-items: center;
@@ -287,16 +286,17 @@ text-align: center;
 
 
 .invitation-title{
-    width: 505px;
     text-align: center;
     font-family: PT Sans;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
-    line-height: 36px;
     text-transform: uppercase;
-margin-left: 347.5px;
+    line-height: 36px;
+   
 }
+
+
 
 
 .invitation-discreption{
@@ -345,7 +345,9 @@ line-height: 26px;
     align-items: center;
     gap: 10px;
     background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 
     .subscription-title{
@@ -767,4 +769,17 @@ border-radius: 4px;
     display: flex;
 margin-top: 0;
 
+}
+
+.info{
+    padding:0 70px;
+
+}
+
+.invitation{
+    padding:0 70px;
+}
+
+.search{
+    padding:0 70px;
 }
