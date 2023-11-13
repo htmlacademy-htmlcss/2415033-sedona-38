@@ -7,43 +7,55 @@
     <base href="https://htmlacademy-htmlcss.github.io/2415033-sedona-38/4/">
 </head>
   <body>
-<header class="page-header">
-  <a class="navigation-logo" href="index.html">
-    <img class="logo" src="images/logo (1).svg" alt=Логотип-Cедона>
-  </a>
-  <nav class="navigation">
-<ul class="navigation-list">
-  <li class="navigation-item">
-    <a class="navigation-link" href="index.html">Главная</a>
-</li>
-<li class="navigation-item">
-  <a class="navigation-link" href="#">О Седоне</a>
-</li>
-<li class="navigation-item">
-  <a class="navigation-link" href="#">Гостиницы</a>
-</li>
-</ul>
 
-<ul class="navigation-list-user">
-  <li class="navigation-item">
-    <a class="navigation-link" href="#">Поиск</a>
-</li>
-<li class="navigation-item">
-  <a class="navigation-link" href="#">избранное</a>
-  </li>
-  <li class="navigation-item">
-    <button class="main-header-button button">Хочу сюда</button>
-</li>
-</ul>
-</nav>
-</header>
+    <header class="page-header">
+
+      <nav class="navigation">
+    
+    <a class="navigation-logo" href="index.html">
+        <img class="logo" src="images/logo (1).svg" width="140" height="70" alt="Логотип-Cедона">
+      </a>
+    
+    <ul class="navigation-list">
+      <li class="navigation-item">
+        <a class="navigation-link" href="index.html">Главная</a>
+    </li>
+    <li class="navigation-item">
+      <a class="navigation-link" href="#">О Седоне</a>
+    </li>
+    <li class="navigation-item">
+      <a class="navigation-link" href="#">Гостиницы</a>
+    </li>
+    </ul>
+    
+    <ul class="navigation-list-user">
+      <li class="navigation-item">
+        <a class="navigation-link" href="#">
+          <img class="search-icon" src="images/search.svg" width="20px" height="20px" alt="">
+        </a>
+    </li>
+    <li class="navigation-item">
+      <a class="navigation-link" href="#">
+        <img class="search-icon" src="images/heart.svg" width="20px" height="20px" alt="">
+        12
+      </a>
+      </li>
+      <li class="navigation-item">
+        <button class="main-header-button button">Хочу сюда</button>
+    </li>
+    </ul>
+    </nav>
+    </header>
+
 <main class="main-inner">
   <div class="main-filter">
 <h1> Гостиницы Седоны</h1>
 <section class="catalog-products">
 
     <h2 class="visually-hidden">список гостиниц с фильтрами</h2>
-    <fieldset class="cataljg-filter-group">
+
+    <form class="catalog-filter-form" action="">
+ <fieldset class="catalog-filter-group">
       <legend class="catalog-filter-title">Инфраструктура:</legend>
       <ul class="catalog-filter-group">
         <li class="catalogfilter-item">
@@ -63,7 +75,7 @@
                      </label></li>
       </ul>
     </fieldset>
-    <fieldset class="cataljg-filter-group">
+    <fieldset class="catalog-filter-group">
         <legend class="catalog-filter-title">Тип жилья:</legend>
         <ul class="catalog-filter-group">
           <li class="catalogfilter-item">
@@ -83,7 +95,7 @@
                  </label></li>
         </ul>
       </fieldset>
-      <fieldset class="cataljg-filter-group">
+      <fieldset class="catalog-filter-group">
         <legend class="catalog-filter-title">Стоимость,₽:</legend>
          <label for="price-from">
             <input class="price-input" placeholder="от" type="text" name id="price-from" value="0">
@@ -97,17 +109,27 @@
             >
          </label>
        </fieldset>
+
+  <div class="catalog-filter-buttons">
        <button class="button-button-submit" type="submit">Применить</button>
        <button class="button-button-reset" type="reset">Сбросить</button>
+  </div>
+
+      
+
+    </form>
+   
 
       </section>
     </div>
 <section>
-    <h2 class="section-result">Найдено гостиниц: 38</h2>
+
+  <div class="result-top-container">
+ <h2 class="section-result">Найдено гостиниц: 38</h2>
     <select class="select-control" aria-label="сортировка">
-        <option value="cheap"">Сначала дешевые</option>
-        <option value="popular"">Сначала популярные</option>
-        <option value="expensive"">Сначала дорогие</option>
+        <option value="cheap">Сначала дешевые</option>
+        <option value="popular">Сначала популярные</option>
+        <option value="expensive">Сначала дорогие</option>
     </select>
     <ul class="card-view-buttons">
         <li class="card-view-item">
@@ -126,6 +148,11 @@
           </li>
         </li>
       </ul>
+
+</div>
+
+
+   
       <ul class="product-list">
         <li class="product-card">
             <img class="product-card-image" src="images/hotel-1.jpg" alt=Фото гостиницы Amara Resort & Spa>

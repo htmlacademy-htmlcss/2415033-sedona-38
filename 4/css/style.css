@@ -35,7 +35,7 @@ margin: 0 auto;
 
 
 .main-container{
-    background-color: rgba(255, 255, 255, 1);
+background-color: rgba(255, 255, 255, 1);
 Width:1200px;
 
 
@@ -445,9 +445,11 @@ align-self: stretch;
 
 
 .main-filter {
-    background-image:
-    url("../images/Filter_background.jpg");
+    background-image: url("../images/Filter_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 
 
 .main-filter h1{
@@ -508,7 +510,7 @@ display: flex;
 padding: 8px 50px;
 justify-content: center;
 align-items: center;
-gap: 10px;
+width:100%;
 align-self: stretch;
 border-radius: 4px;
 
@@ -782,4 +784,25 @@ margin-top: 0;
 
 .search{
     padding:0 70px;
+}
+
+    /* страница католога*/
+
+.main-inner{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    flex-grow: 1;
+
+}
+
+.catalog-filter-form{
+    display:flex;
+    gap:70px;
+    padding:0 70px;
+}
+
+.result-top-container{
+display: flex;
+
 }
