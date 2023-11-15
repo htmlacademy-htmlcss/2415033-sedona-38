@@ -806,3 +806,20 @@ margin-top: 0;
 display: flex;
 
 }
+
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pagination{
+
+display: flex;
+}
+
+.subscription-catalog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
